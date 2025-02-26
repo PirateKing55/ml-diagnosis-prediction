@@ -1,0 +1,10 @@
+{
+    "CPT_code": "81210",
+    "age": 45,
+    "frw": 3.2,
+    "systolicBP": 120,
+    "diastolicBP": 80,
+    "cholesterolLevel": 200,
+    "cigaretteConsumption": 10,
+    "sex": "male"
+}
