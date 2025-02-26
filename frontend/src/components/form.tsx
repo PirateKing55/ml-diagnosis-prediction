@@ -75,7 +75,8 @@ const MedicalPredictionForm = () => {
 
         try {
             // Get the API URL from environment variables
-            const apiUrl = `${import.meta.env.VITE_BACKEND_URL}/api` || '/api';
+            const apiUrl = import.meta.env.VITE_BACKEND_URL ? `${import.meta.env.VITE_BACKEND_URL}/api` : '/api';
+
 
             // Submit the form data
             const response = await axios.post(`${apiUrl}/predict`, formData);
